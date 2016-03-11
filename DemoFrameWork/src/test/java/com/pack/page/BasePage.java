@@ -34,7 +34,7 @@ public class BasePage {
 	
 	public String getPageTitle(){
 		String title = driver.getTitle();
-		logger.info("title captured");
+		logger.info("title captured1");
 		return title;
 	}
 	

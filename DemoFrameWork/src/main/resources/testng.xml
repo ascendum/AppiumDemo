@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FrameworkDemo"  preserve-order="true">
+    <listeners>
+		<listener class-name="com.pack.listners.ListenerClass" />
+		
+	</listeners>
+    <parameter name="appURL" value="https://www.google.co.in/"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="GoTest">
+    <classes>
+         
+         <class name="com.pack.test.CreateAnAccounTest"/>
+         <class name="com.pack.test.SignInPageTest"/>
+      <class name="com.pack.test.BasePageTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- FrameworkDemo -->

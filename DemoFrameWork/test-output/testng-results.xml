@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FrameworkDemo" duration-ms="75542" started-at="2016-03-10T09:40:24Z" finished-at="2016-03-10T09:41:40Z">
+    <groups>
+    </groups>
+    <test name="GoTest" duration-ms="75542" started-at="2016-03-10T09:40:24Z" finished-at="2016-03-10T09:41:40Z">
+      <class name="com.pack.test.BasePageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.BasePageTest@42d3bd8b]" name="initializeTestBaseSetup" is-config="true" duration-ms="7913" started-at="2016-03-10T15:11:31Z" finished-at="2016-03-10T15:11:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.test.BasePageTest@42d3bd8b]" name="setUp" is-config="true" duration-ms="3" started-at="2016-03-10T15:11:39Z" finished-at="2016-03-10T15:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyHomePage()[pri:0, instance:com.pack.test.BasePageTest@42d3bd8b]" name="verifyHomePage" duration-ms="129" started-at="2016-03-10T15:11:39Z" finished-at="2016-03-10T15:11:39Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.pack.listners.ListenerClass.onTestSuccess(ListenerClass.java:30)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1695)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1675)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:700)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:com.pack.test.BasePageTest@42d3bd8b]" name="verifyHomePage" duration-ms="123" started-at="2016-03-10T15:11:39Z" finished-at="2016-03-10T15:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.BasePageTest@42d3bd8b]" name="tearDown" is-config="true" duration-ms="708" started-at="2016-03-10T15:11:39Z" finished-at="2016-03-10T15:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.test.BasePageTest -->
+      <class name="com.pack.test.SignInPageTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@dfd3711]" name="initializeTestBaseSetup" is-config="true" duration-ms="8977" started-at="2016-03-10T15:10:40Z" finished-at="2016-03-10T15:10:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.test.SignInPageTest@dfd3711]" name="setUp" is-config="true" duration-ms="1" started-at="2016-03-10T15:10:49Z" finished-at="2016-03-10T15:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifySignInFunction()[pri:0, instance:com.pack.test.SignInPageTest@dfd3711]" name="verifySignInFunction" duration-ms="40574" started-at="2016-03-10T15:10:49Z" finished-at="2016-03-10T15:11:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.pack.listners.ListenerClass.onTestSuccess(ListenerClass.java:30)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1695)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1675)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:700)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInFunction -->
+        <test-method status="PASS" signature="verifySignInFunction()[pri:0, instance:com.pack.test.SignInPageTest@dfd3711]" name="verifySignInFunction" duration-ms="40572" started-at="2016-03-10T15:10:49Z" finished-at="2016-03-10T15:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInFunction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.SignInPageTest@dfd3711]" name="tearDown" is-config="true" duration-ms="879" started-at="2016-03-10T15:11:30Z" finished-at="2016-03-10T15:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.test.SignInPageTest -->
+      <class name="com.pack.test.CreateAnAccounTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.CreateAnAccounTest@38082d64]" name="initializeTestBaseSetup" is-config="true" duration-ms="9401" started-at="2016-03-10T15:10:24Z" finished-at="2016-03-10T15:10:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.test.CreateAnAccounTest@38082d64]" name="setUp" is-config="true" duration-ms="23" started-at="2016-03-10T15:10:33Z" finished-at="2016-03-10T15:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="CreateAnAccounPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.CreateAnAccounTest@38082d64]" name="CreateAnAccounPage" duration-ms="6005" started-at="2016-03-10T15:10:34Z" data-provider="createAccount" finished-at="2016-03-10T15:10:40Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.pack.listners.ListenerClass.onTestSuccess(ListenerClass.java:30)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1695)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1675)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:700)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAnAccounPage -->
+        <test-method status="PASS" signature="CreateAnAccounPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.CreateAnAccounTest@38082d64]" name="CreateAnAccounPage" duration-ms="5559" started-at="2016-03-10T15:10:34Z" data-provider="createAccount" finished-at="2016-03-10T15:10:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chinmay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Satapathy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9740172751]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAnAccounPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.CreateAnAccounTest@38082d64]" name="tearDown" is-config="true" duration-ms="881" started-at="2016-03-10T15:10:40Z" finished-at="2016-03-10T15:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pack.test.CreateAnAccounTest -->
+    </test> <!-- GoTest -->
+  </suite> <!-- FrameworkDemo -->
+</testng-results>

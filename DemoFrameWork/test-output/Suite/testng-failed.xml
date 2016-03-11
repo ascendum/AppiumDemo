@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.pack.test.CreateAnAccounTest">
+        <methods>
+          <include name="CreateAnAccounPage"/>
+        </methods>
+      </class> <!-- com.pack.test.CreateAnAccounTest -->
+      <class name="com.pack.test.SignInPageTest">
+        <methods>
+          <include name="verifySignInFunction"/>
+        </methods>
+      </class> <!-- com.pack.test.SignInPageTest -->
+      <class name="com.pack.test.BasePageTest">
+        <methods>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.pack.test.BasePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

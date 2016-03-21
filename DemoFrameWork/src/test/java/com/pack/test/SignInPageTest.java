@@ -18,7 +18,7 @@ private WebDriver driver;
 private SignInPage signInPage;
 private BasePage basePage;
 ScreenShots st;
-Webdriverhelpers wh;
+//Webdriverhelpers wh;
 	
 	@BeforeClass
 	public void setUp() {
@@ -29,9 +29,9 @@ Webdriverhelpers wh;
 	public void verifySignInFunction() {
 		System.out.println("Sign In functionality details...");
 		basePage = new BasePage(driver);
-		wh.waitForPageToLoad();
+		//wh.waitForPageToLoad();
 		signInPage = basePage.clickSignInBtn();
-		wh.waitForPageToLoad();
+		//wh.waitForPageToLoad();
 		Assert.assertTrue(signInPage.verifySignInPageTitle(), "Sign In page title doesn't match");
 		Assert.assertTrue(signInPage.verifySignInPageText(), "Page text not matching");
 		Assert.assertTrue(signInPage.verifySignIn(), "Unable to sign in");

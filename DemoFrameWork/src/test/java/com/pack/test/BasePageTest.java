@@ -18,7 +18,7 @@ import com.thoughtworks.selenium.webdriven.commands.CaptureScreenshotToString;
 public class BasePageTest extends TestBaseSetup{
 	
 	private WebDriver driver;
-	Webdriverhelpers wh;
+	//Webdriverhelpers wh;
 	ScreenShots st;
 	static Logger logger=Logger.getLogger("CreateAccountPage");
 	@BeforeClass
@@ -33,7 +33,7 @@ public class BasePageTest extends TestBaseSetup{
 		//System.out.println("Home page test...");
 		logger.info("Home page test...");
 		BasePage basePage = new BasePage(driver);
-		wh.waitForPageToLoad();
+		//wh.waitForPageToLoad();
 		Assert.assertTrue(basePage.verifyBasePageTitle(), "Home page title doesn't match");
 	}
 	@AfterMethod

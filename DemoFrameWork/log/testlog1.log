@@ -323,3 +323,38 @@
 2016-03-21 18:39:30,466 [main] INFO TestBaseSetup - Maximizing Firefox browser..
 2016-03-21 18:39:34,145 [main] INFO CreateAnAccounTest - Create An Account page test...
 2016-03-21 18:39:37,111 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:40:53,379 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:41:01,318 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-03-21 18:41:04,930 [main] INFO CreateAnAccounTest - Create An Account page test...
+2016-03-21 18:41:07,857 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:41:24,746 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-03-21 18:41:28,795 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:41:35,168 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-03-21 18:41:37,716 [main] INFO CreateAccountPage - Home page test...
+2016-03-21 18:42:47,997 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:42:56,248 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-03-21 18:42:59,416 [main] INFO CreateAnAccounTest - Create An Account page test...
+2016-03-21 18:42:59,434 [main] INFO BasePage - clicking on sign in button
+2016-03-21 18:43:02,243 [main] INFO SignInPage - CreateAnAccount link clicked
+2016-03-21 18:43:07,983 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:43:13,535 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-03-21 18:43:17,668 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:43:24,097 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-03-21 18:43:26,107 [main] INFO CreateAccountPage - Home page test...
+2016-03-21 18:44:28,936 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:44:36,362 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-03-21 18:44:39,879 [main] INFO CreateAnAccounTest - Create An Account page test...
+2016-03-21 18:44:39,895 [main] INFO BasePage - clicking on sign in button
+2016-03-21 18:44:44,073 [main] INFO SignInPage - CreateAnAccount link clicked
+2016-03-21 18:44:46,244 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:44:51,887 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-03-21 18:44:54,053 [main] INFO BasePage - clicking on sign in button
+2016-03-21 18:44:56,185 [main] INFO SignInPage - UserName Entered Sucessfully
+2016-03-21 18:44:56,855 [main] INFO SignInPage - Next button clicked
+2016-03-21 18:44:56,883 [main] INFO SignInPage - Next button is clicked
+2016-03-21 18:44:58,031 [main] INFO SignInPage - Passwod is Entered Sucessfully
+2016-03-21 18:44:59,412 [main] INFO SignInPage - SignIn button clicked
+2016-03-21 18:45:00,598 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-03-21 18:45:06,352 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-03-21 18:45:08,829 [main] INFO CreateAccountPage - Home page test...
+2016-03-21 18:45:09,057 [main] INFO BasePage - title captured1

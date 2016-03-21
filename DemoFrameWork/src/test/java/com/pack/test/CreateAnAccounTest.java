@@ -34,7 +34,7 @@ public class CreateAnAccounTest extends TestBaseSetup {
 	private BasePage basePage;
 	private CreateAccountPage createAccountPage;
 	ScreenShots st;
-	Webdriverhelpers wh;
+	//Webdriverhelpers wh;
 	/*private By firstNameTxt = By.id("FirstName");
 	private By lastNameTxt = By.id("LastName");
 	private By mobileNumberTxt = By.id("RecoveryPhoneNumber");*/
@@ -50,10 +50,10 @@ public class CreateAnAccounTest extends TestBaseSetup {
 			//System.out.println("Create An Account page test...");
 			logger.info("Create An Account page test...");
 			basePage = new BasePage(driver);
-			wh.waitForPageToLoad();
+			//wh.waitForPageToLoad();
 			signInPage = basePage.clickSignInBtn();
 			createAccountPage = signInPage.clickonCreateAnAccount();
-			wh.waitForPageToLoad();
+			//.waitForPageToLoad();
 			driver.findElement(signInPage.firstNameTxt).sendKeys(firstName);
 			driver.findElement(signInPage.lastNameTxt).sendKeys(lastName);
 			driver.findElement(signInPage.mobileNumberTxt).sendKeys(Mobile);

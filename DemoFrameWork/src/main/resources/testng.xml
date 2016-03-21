@@ -3,6 +3,8 @@
 <suite name="FrameworkDemo"  preserve-order="true">
     <listeners>
 		<listener class-name="com.pack.listners.ListenerClass" />
+		<listener class-name="com.pack.listners.ExtentReporterNG" />
+	<!-- 	<listener class-name="com.pack.listners.TestListener" /> -->
 		
 	</listeners>
     <parameter name="appURL" value="https://www.google.co.in/"/>

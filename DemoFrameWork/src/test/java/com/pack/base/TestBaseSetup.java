@@ -12,10 +12,10 @@ import org.testng.annotations.Parameters;
 public class TestBaseSetup {
 	static Logger logger=Logger.getLogger("TestBaseSetup");
 	
-	private WebDriver driver;
+	public static  WebDriver driver;
 	static String driverPath = "D:\\chromedriver\\";
 
-	public WebDriver getDriver() {
+	public static WebDriver getDriver() {
 		return driver;
 	}
 

@@ -5,6 +5,7 @@
   <parameter name="browserType" value="firefox"/>
   <listeners>
     <listener class-name="com.pack.listners.ListenerClass"/>
+    <listener class-name="com.pack.listners.ExtentReporterNG"/>
   </listeners>
   <test name="GoTest">
     <classes>
@@ -15,17 +16,10 @@
   </test> <!-- GoTest -->
   <test name="GoTest(failed)">
     <classes>
-      <class name="com.pack.test.CreateAnAccounTest">
-        <methods>
-          <include name="CreateAnAccounPage"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="initializeTestBaseSetup"/>
-        </methods>
-      </class> <!-- com.pack.test.CreateAnAccounTest -->
       <class name="com.pack.test.BasePageTest">
         <methods>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="tearDown"/>
           <include name="verifyHomePage"/>
           <include name="initializeTestBaseSetup"/>
@@ -34,11 +28,21 @@
       <class name="com.pack.test.SignInPageTest">
         <methods>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="verifySignInFunction"/>
           <include name="tearDown"/>
           <include name="initializeTestBaseSetup"/>
         </methods>
       </class> <!-- com.pack.test.SignInPageTest -->
+      <class name="com.pack.test.CreateAnAccounTest">
+        <methods>
+          <include name="CreateAnAccounPage" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.pack.test.CreateAnAccounTest -->
     </classes>
   </test> <!-- GoTest(failed) -->
 </suite> <!-- Failed suite [FrameworkDemo] -->

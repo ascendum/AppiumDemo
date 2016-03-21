@@ -13,14 +13,19 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.pack.base.TestBaseSetup;
+import com.pack.base.Webdriverhelpers;
 import com.pack.page.BasePage;
 import com.pack.page.CreateAccountPage;
 import com.pack.page.SignInPage;
+import com.pack.utility.ScreenShots;
 
 public class CreateAnAccounTest extends TestBaseSetup {
 	static Logger logger=Logger.getLogger("CreateAnAccounTest");
@@ -28,10 +33,12 @@ public class CreateAnAccounTest extends TestBaseSetup {
 	private SignInPage signInPage;
 	private BasePage basePage;
 	private CreateAccountPage createAccountPage;
+	ScreenShots st;
+	Webdriverhelpers wh;
 	/*private By firstNameTxt = By.id("FirstName");
 	private By lastNameTxt = By.id("LastName");
 	private By mobileNumberTxt = By.id("RecoveryPhoneNumber");*/
-		
+
 		@BeforeClass
 		public void setUp() {
 			PropertyConfigurator.configure("Log4j.properties");
@@ -43,8 +50,10 @@ public class CreateAnAccounTest extends TestBaseSetup {
 			//System.out.println("Create An Account page test...");
 			logger.info("Create An Account page test...");
 			basePage = new BasePage(driver);
+			wh.waitForPageToLoad();
 			signInPage = basePage.clickSignInBtn();
 			createAccountPage = signInPage.clickonCreateAnAccount();
+			wh.waitForPageToLoad();
 			driver.findElement(signInPage.firstNameTxt).sendKeys(firstName);
 			driver.findElement(signInPage.lastNameTxt).sendKeys(lastName);
 			driver.findElement(signInPage.mobileNumberTxt).sendKeys(Mobile);
@@ -92,6 +101,29 @@ public class CreateAnAccounTest extends TestBaseSetup {
 			}
 			return arrayExcelData;
 		}
+		@AfterMethod
+		public void tearDown(ITestResult result)
+		{
+		 
+		// Here will compare if test is failing then only it will enter into if condition
+		if(ITestResult.FAILURE==result.getStatus())
+		{
+		try 
+		{
+			st.captureScreenShot(getDriver(), result.getName());
+		 
+		System.out.println("Screenshot taken");
+		} 
+		catch (Exception e)
+		{
+		 
+		System.out.println("Exception while taking screenshot "+e.getMessage());
+		} 
+		 
+		 
+		 
+		}
+	}
 		public void verifySignInFunction() {
 			
 		}

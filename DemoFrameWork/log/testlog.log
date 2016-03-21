@@ -152,3 +152,174 @@
 2016-03-10 15:36:19,545 - TestBaseSetup -INFO - Launching Firefox browser..
 2016-03-10 15:36:25,833 - TestBaseSetup -INFO - Maximizing Firefox browser..
 2016-03-10 15:36:27,877 - CreateAccountPage -INFO - Home page test...
+2016-03-11 15:59:27,022 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-11 15:59:46,583 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-11 15:59:51,658 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-11 15:59:51,669 - BasePage -INFO - clicking on sign in button
+2016-03-11 15:59:56,274 - SignInPage -INFO - CreateAnAccount link clicked
+2016-03-11 16:00:08,800 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-11 16:00:32,883 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-11 16:00:36,606 - BasePage -INFO - clicking on sign in button
+2016-03-11 16:00:38,343 - SignInPage -INFO - UserName Entered Sucessfully
+2016-03-11 16:00:56,791 - SignInPage -INFO - Next button clicked
+2016-03-11 16:00:56,823 - SignInPage -INFO - Next button is clicked
+2016-03-11 16:00:56,979 - SignInPage -INFO - Passwod is Entered Sucessfully
+2016-03-11 16:01:17,456 - SignInPage -INFO - SignIn button clicked
+2016-03-11 16:01:18,206 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-11 16:01:24,780 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-11 16:01:27,710 - CreateAccountPage -INFO - Home page test...
+2016-03-11 17:49:18,946 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-11 17:49:27,977 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-11 17:49:31,599 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-11 17:49:31,628 - BasePage -INFO - clicking on sign in button
+2016-03-11 17:49:34,349 - SignInPage -INFO - CreateAnAccount link clicked
+2016-03-11 17:49:59,430 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-11 17:50:05,756 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-11 17:50:08,161 - BasePage -INFO - clicking on sign in button
+2016-03-11 17:50:09,815 - SignInPage -INFO - UserName Entered Sucessfully
+2016-03-11 17:50:28,499 - SignInPage -INFO - Next button clicked
+2016-03-11 17:50:28,531 - SignInPage -INFO - Next button is clicked
+2016-03-11 17:50:28,687 - SignInPage -INFO - Passwod is Entered Sucessfully
+2016-03-11 17:50:48,785 - SignInPage -INFO - SignIn button clicked
+2016-03-11 17:50:49,566 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-11 17:50:56,090 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-11 17:50:58,663 - CreateAccountPage -INFO - Home page test...
+2016-03-11 17:50:58,773 - BasePage -INFO - title captured1
+2016-03-21 12:15:11,692 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:16:20,804 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:16:35,584 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:16:35,856 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:16:43,512 - SignInPage -INFO - CreateAnAccount link clicked
+2016-03-21 12:16:50,905 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:16:58,792 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:17:01,536 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:17:04,016 - SignInPage -INFO - UserName Entered Sucessfully
+2016-03-21 12:17:22,074 - SignInPage -INFO - Next button clicked
+2016-03-21 12:17:22,136 - SignInPage -INFO - Next button is clicked
+2016-03-21 12:17:22,276 - SignInPage -INFO - Passwod is Entered Sucessfully
+2016-03-21 12:17:42,380 - SignInPage -INFO - SignIn button clicked
+2016-03-21 12:17:43,157 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:17:49,398 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:17:51,634 - CreateAccountPage -INFO - Home page test...
+2016-03-21 12:17:51,881 - BasePage -INFO - title captured1
+2016-03-21 12:21:51,151 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:21:59,765 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:22:03,061 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:22:03,075 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:22:05,275 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:22:11,069 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:22:13,338 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:22:14,979 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:22:21,095 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:22:23,876 - CreateAccountPage -INFO - Home page test...
+2016-03-21 12:22:24,008 - BasePage -INFO - title captured1
+2016-03-21 12:25:50,751 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:25:58,819 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:26:02,201 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:26:02,213 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:26:48,185 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:26:55,548 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:26:58,863 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:26:58,876 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:27:38,268 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:27:45,710 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:27:48,005 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:27:48,018 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:29:19,333 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:29:26,685 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:29:30,576 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:29:30,590 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:30:12,705 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:30:20,097 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:30:23,013 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:30:23,030 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:31:18,606 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:31:25,406 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:31:28,254 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:31:28,273 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:31:29,803 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:31:35,075 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:31:37,791 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:31:39,271 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:31:44,421 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:31:46,623 - CreateAccountPage -INFO - Home page test...
+2016-03-21 12:31:46,887 - BasePage -INFO - title captured1
+2016-03-21 12:45:54,811 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:46:02,310 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:46:05,905 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:46:05,925 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:46:09,254 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:46:14,750 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:46:17,228 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:46:18,910 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:46:24,553 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:46:27,080 - CreateAccountPage -INFO - Home page test...
+2016-03-21 12:46:27,316 - BasePage -INFO - title captured1
+2016-03-21 12:49:31,425 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:49:38,362 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:49:41,673 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:49:41,704 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:49:43,678 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:49:49,030 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:49:51,683 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:49:53,151 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:49:58,490 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:50:00,832 - CreateAccountPage -INFO - Home page test...
+2016-03-21 12:50:01,004 - BasePage -INFO - title captured1
+2016-03-21 12:54:37,648 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:54:46,211 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:54:50,388 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 12:54:50,405 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:54:55,177 - SignInPage -INFO - CreateAnAccount link clicked
+2016-03-21 12:54:58,282 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:55:03,455 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:55:05,495 - BasePage -INFO - clicking on sign in button
+2016-03-21 12:55:08,749 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 12:55:14,137 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 12:55:16,380 - CreateAccountPage -INFO - Home page test...
+2016-03-21 12:55:16,605 - BasePage -INFO - title captured1
+2016-03-21 14:08:37,528 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 14:08:57,037 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 14:09:05,785 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 14:09:05,786 - BasePage -INFO - clicking on sign in button
+2016-03-21 14:09:08,000 - SignInPage -INFO - CreateAnAccount link clicked
+2016-03-21 14:09:19,382 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 14:09:37,470 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 14:09:42,348 - BasePage -INFO - clicking on sign in button
+2016-03-21 14:09:44,501 - SignInPage -INFO - UserName Entered Sucessfully
+2016-03-21 14:10:02,768 - SignInPage -INFO - Next button clicked
+2016-03-21 14:10:02,804 - SignInPage -INFO - Next button is clicked
+2016-03-21 14:10:02,960 - SignInPage -INFO - Passwod is Entered Sucessfully
+2016-03-21 14:10:23,575 - SignInPage -INFO - SignIn button clicked
+2016-03-21 14:10:24,926 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 14:10:38,260 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 14:10:43,585 - CreateAccountPage -INFO - Home page test...
+2016-03-21 14:10:44,447 - BasePage -INFO - title captured1
+2016-03-21 14:13:52,945 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 14:14:08,272 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 14:14:13,552 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 14:14:13,569 - BasePage -INFO - clicking on sign in button
+2016-03-21 14:14:16,962 - SignInPage -INFO - CreateAnAccount link clicked
+2016-03-21 14:14:29,820 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 14:14:56,548 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 14:15:08,794 - BasePage -INFO - clicking on sign in button
+2016-03-21 14:15:17,109 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 14:15:30,135 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 14:15:34,405 - CreateAccountPage -INFO - Home page test...
+2016-03-21 14:15:34,528 - BasePage -INFO - title captured1
+2016-03-21 18:34:24,571 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 18:35:10,833 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 18:35:23,967 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 18:35:29,762 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 18:35:50,984 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 18:35:55,819 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 18:36:08,989 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 18:36:11,673 - CreateAccountPage -INFO - Home page test...
+2016-03-21 18:38:01,891 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 18:38:08,936 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 18:38:13,081 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 18:38:15,316 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 18:39:22,552 - TestBaseSetup -INFO - Launching Firefox browser..
+2016-03-21 18:39:30,466 - TestBaseSetup -INFO - Maximizing Firefox browser..
+2016-03-21 18:39:34,145 - CreateAnAccounTest -INFO - Create An Account page test...
+2016-03-21 18:39:37,111 - TestBaseSetup -INFO - Launching Firefox browser..

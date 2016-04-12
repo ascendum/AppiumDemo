@@ -21,7 +21,7 @@ public class SeleniumBusiness extends SeleniumSpecific {
     protected void enterTextField(By elementLocator, String value) throws SeleniumAutomationException {
         try {
             log.info("-Entering text: " + value + " in element located at : " + elementLocator.toString());
-            waitForElementToBeVisible(elementLocator);
+            waitFindElement(elementLocator);
             WebElement inputField = waitFindElement(elementLocator);
             inputField.clear();
             inputField.click();

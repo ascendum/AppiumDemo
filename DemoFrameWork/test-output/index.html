@@ -130,6 +130,22 @@
           <div class="suite-FrameworkDemo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.pack.test.CreateAnAccounTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateAnAccounPage(Chinmay, Satapathy, 9740172751)">
+                  </a> <!-- CreateAnAccounPage(Chinmay, Satapathy, 9740172751) -->
+                  <span class="method-name">CreateAnAccounPage</span>
+                  <span class="parameters">(Chinmay, Satapathy, 9740172751)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FrameworkDemo-class-passed -->
+          <div class="suite-FrameworkDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.pack.test.BasePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -157,22 +173,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-FrameworkDemo-class-passed -->
-          <div class="suite-FrameworkDemo-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.pack.test.CreateAnAccounTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="CreateAnAccounPage(Chinmay, Satapathy, 9740172751)">
-                  </a> <!-- CreateAnAccounPage(Chinmay, Satapathy, 9740172751) -->
-                  <span class="method-name">CreateAnAccounPage</span>
-                  <span class="parameters">(Chinmay, Satapathy, 9740172751)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FrameworkDemo-class-passed -->
         </div> <!-- panel FrameworkDemo -->
         <div panel-name="test-xml-FrameworkDemo" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -182,7 +182,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;FrameworkDemo&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;FrameworkDemo&quot; parallel=&quot;classes&quot;&gt;
   &lt;parameter name=&quot;appURL&quot; value=&quot;https://www.google.co.in/&quot;/&gt;
   &lt;parameter name=&quot;browserType&quot; value=&quot;firefox&quot;/&gt;
   &lt;listeners&gt;
@@ -237,20 +237,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CreateAnAccounPage')
 data.setCell(0, 2, 'com.pack.test.CreateAnAccounTest')
-data.setCell(0, 3, 5493);
+data.setCell(0, 3, 20736);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifySignInFunction')
 data.setCell(1, 2, 'com.pack.test.SignInPageTest')
-data.setCell(1, 3, 5491);
+data.setCell(1, 3, 6349);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyHomePage')
 data.setCell(2, 2, 'com.pack.test.BasePageTest')
-data.setCell(2, 3, 242);
+data.setCell(2, 3, 427);
 window.suiteTableData['FrameworkDemo']= { tableData: data, tableDiv: 'times-div-FrameworkDemo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-FrameworkDemo">
               </div> <!-- times-div-FrameworkDemo -->
             </div> <!-- times-div -->
@@ -276,72 +276,84 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">com.pack.test.BasePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTestBaseSetup(firefox, https://www.google.co.in/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">com.pack.test.CreateAnAccounTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initializeTestBaseSetup(firefox, https://www.google.co.in/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">10819 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">CreateAnAccounPage(Chinmay, Satapathy, 9740172751)</span>
-                <span class="method-start">11195 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=CreateAnAccounPage status=SUCCESS method=CreateAnAccounTest.CreateAnAccounPage(java...)</span>
-                <span class="method-start">16695 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">16696 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pack.test.SignInPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initializeTestBaseSetup(firefox, https://www.google.co.in/)</span>
-                <span class="method-start">17573 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pack.test.CreateAnAccounTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">25356 ms</span>
+                <span class="method-start">14322 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">verifySignInFunction</span>
-                <span class="method-start">25361 ms</span>
+                <span class="method-name">CreateAnAccounPage(Chinmay, Satapathy, 9740172751)</span>
+                <span class="method-start">14824 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=verifySignInFunction status=SUCCESS method=SignInPageTest.verifySignInFunction()[pr...)</span>
-                <span class="method-start">30856 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">30857 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.pack.test.BasePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">initializeTestBaseSetup(firefox, https://www.google.co.in/)</span>
-                <span class="method-start">31927 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">40138 ms</span>
+                <span class="method-start">29297 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePage</span>
-                <span class="method-start">40145 ms</span>
+                <span class="method-start">29315 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyHomePage status=SUCCESS method=BasePageTest.verifyHomePage()[pri:0, instance:...)</span>
-                <span class="method-start">40388 ms</span>
+                <span class="method-start">29744 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">40389 ms</span>
+                <span class="method-start">29745 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pack.test.CreateAnAccounTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=CreateAnAccounPage status=SUCCESS method=CreateAnAccounTest.CreateAnAccounPage(java...)</span>
+                <span class="method-start">35565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35569 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pack.test.SignInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38547 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySignInFunction</span>
+                <span class="method-start">38555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifySignInFunction status=SUCCESS method=SignInPageTest.verifySignInFunction()[pr...)</span>
+                <span class="method-start">44906 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44906 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

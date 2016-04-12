@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="FrameworkDemo" duration-ms="41416" started-at="2016-03-21T13:14:28Z" finished-at="2016-03-21T13:15:10Z">
+  <suite name="FrameworkDemo" duration-ms="45531" started-at="2016-04-11T06:54:43Z" finished-at="2016-04-11T06:55:29Z">
     <groups>
     </groups>
-    <test name="GoTest" duration-ms="41416" started-at="2016-03-21T13:14:28Z" finished-at="2016-03-21T13:15:10Z">
+    <test name="GoTest" duration-ms="45531" started-at="2016-04-11T06:54:43Z" finished-at="2016-04-11T06:55:29Z">
       <class name="com.pack.test.BasePageTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.BasePageTest@3b81a1bc]" name="initializeTestBaseSetup" is-config="true" duration-ms="8211" started-at="2016-03-21T18:45:00Z" finished-at="2016-03-21T18:45:08Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.BasePageTest@735f7ae5]" name="initializeTestBaseSetup" is-config="true" duration-ms="29297" started-at="2016-04-11T12:24:43Z" finished-at="2016-04-11T12:25:13Z">
           <params>
             <param index="0">
               <value>
@@ -23,32 +23,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.test.BasePageTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="6" started-at="2016-03-21T18:45:08Z" finished-at="2016-03-21T18:45:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.test.BasePageTest@735f7ae5]" name="setUp" is-config="true" duration-ms="17" started-at="2016-04-11T12:25:13Z" finished-at="2016-04-11T12:25:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:com.pack.test.BasePageTest@3b81a1bc]" name="verifyHomePage" duration-ms="242" started-at="2016-03-21T18:45:08Z" finished-at="2016-03-21T18:45:09Z">
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:com.pack.test.BasePageTest@735f7ae5]" name="verifyHomePage" duration-ms="427" started-at="2016-04-11T12:25:13Z" finished-at="2016-04-11T12:25:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pack.test.BasePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-21T18:45:09Z" finished-at="2016-03-21T18:45:09Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pack.test.BasePageTest@735f7ae5]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-04-11T12:25:13Z" finished-at="2016-04-11T12:25:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=BasePageTest.verifyHomePage()[pri:0, instance:com.pack.test.BasePageTest@3b81a1bc] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=BasePageTest.verifyHomePage()[pri:0, instance:com.pack.test.BasePageTest@735f7ae5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.BasePageTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="1011" started-at="2016-03-21T18:45:09Z" finished-at="2016-03-21T18:45:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.BasePageTest@735f7ae5]" name="tearDown" is-config="true" duration-ms="2416" started-at="2016-04-11T12:25:13Z" finished-at="2016-04-11T12:25:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pack.test.BasePageTest -->
       <class name="com.pack.test.SignInPageTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@5f2050f6]" name="initializeTestBaseSetup" is-config="true" duration-ms="7783" started-at="2016-03-21T18:44:46Z" finished-at="2016-03-21T18:44:54Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.SignInPageTest@17550481]" name="initializeTestBaseSetup" is-config="true" duration-ms="38547" started-at="2016-04-11T12:24:43Z" finished-at="2016-04-11T12:25:22Z">
           <params>
             <param index="0">
               <value>
@@ -64,32 +64,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.test.SignInPageTest@5f2050f6]" name="setUp" is-config="true" duration-ms="0" started-at="2016-03-21T18:44:54Z" finished-at="2016-03-21T18:44:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.test.SignInPageTest@17550481]" name="setUp" is-config="true" duration-ms="0" started-at="2016-04-11T12:25:22Z" finished-at="2016-04-11T12:25:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignInFunction()[pri:0, instance:com.pack.test.SignInPageTest@5f2050f6]" name="verifySignInFunction" duration-ms="5491" started-at="2016-03-21T18:44:54Z" finished-at="2016-03-21T18:44:59Z">
+        <test-method status="PASS" signature="verifySignInFunction()[pri:0, instance:com.pack.test.SignInPageTest@17550481]" name="verifySignInFunction" duration-ms="6349" started-at="2016-04-11T12:25:22Z" finished-at="2016-04-11T12:25:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignInFunction -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pack.test.SignInPageTest@5f2050f6]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-03-21T18:44:59Z" finished-at="2016-03-21T18:44:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifySignInFunction status=SUCCESS method=SignInPageTest.verifySignInFunction()[pri:0, instance:com.pack.test.SignInPageTest@5f2050f6] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.SignInPageTest@17550481]" name="tearDown" is-config="true" duration-ms="602" started-at="2016-04-11T12:25:28Z" finished-at="2016-04-11T12:25:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.SignInPageTest@5f2050f6]" name="tearDown" is-config="true" duration-ms="1070" started-at="2016-03-21T18:44:59Z" finished-at="2016-03-21T18:45:00Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pack.test.SignInPageTest@17550481]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-04-11T12:25:28Z" finished-at="2016-04-11T12:25:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignInFunction status=SUCCESS method=SignInPageTest.verifySignInFunction()[pri:0, instance:com.pack.test.SignInPageTest@17550481] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pack.test.SignInPageTest -->
       <class name="com.pack.test.CreateAnAccounTest">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.CreateAnAccounTest@26ba2a48]" name="initializeTestBaseSetup" is-config="true" duration-ms="10819" started-at="2016-03-21T18:44:28Z" finished-at="2016-03-21T18:44:39Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.CreateAnAccounTest@783e6358]" name="initializeTestBaseSetup" is-config="true" duration-ms="14322" started-at="2016-04-11T12:24:43Z" finished-at="2016-04-11T12:24:58Z">
           <params>
             <param index="0">
               <value>
@@ -105,11 +105,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.test.CreateAnAccounTest@26ba2a48]" name="setUp" is-config="true" duration-ms="9" started-at="2016-03-21T18:44:39Z" finished-at="2016-03-21T18:44:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pack.test.CreateAnAccounTest@783e6358]" name="setUp" is-config="true" duration-ms="34" started-at="2016-04-11T12:24:58Z" finished-at="2016-04-11T12:24:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CreateAnAccounPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.CreateAnAccounTest@26ba2a48]" name="CreateAnAccounPage" duration-ms="5493" started-at="2016-03-21T18:44:39Z" data-provider="createAccount" finished-at="2016-03-21T18:44:45Z">
+        <test-method status="PASS" signature="CreateAnAccounPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.CreateAnAccounTest@783e6358]" name="CreateAnAccounPage" duration-ms="20736" started-at="2016-04-11T12:24:58Z" data-provider="createAccount" finished-at="2016-04-11T12:25:19Z">
           <params>
             <param index="0">
               <value>
@@ -130,18 +130,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateAnAccounPage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pack.test.CreateAnAccounTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-03-21T18:44:45Z" finished-at="2016-03-21T18:44:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pack.test.CreateAnAccounTest@783e6358]" name="tearDown" is-config="true" duration-ms="4" started-at="2016-04-11T12:25:19Z" finished-at="2016-04-11T12:25:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CreateAnAccounPage status=SUCCESS method=CreateAnAccounTest.CreateAnAccounPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.CreateAnAccounTest@26ba2a48] output={null}]]]>
+                <![CDATA[[TestResult name=CreateAnAccounPage status=SUCCESS method=CreateAnAccounTest.CreateAnAccounPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pack.test.CreateAnAccounTest@783e6358] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.CreateAnAccounTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="877" started-at="2016-03-21T18:44:45Z" finished-at="2016-03-21T18:44:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.CreateAnAccounTest@783e6358]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-04-11T12:25:19Z" finished-at="2016-04-11T12:25:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

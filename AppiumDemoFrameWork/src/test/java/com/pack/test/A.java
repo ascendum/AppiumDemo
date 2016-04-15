@@ -39,6 +39,7 @@ public class A extends AppiumTestBase{
 		ad.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 Thread.sleep(5000);
 		//ad.quit();
+
 	}
 
 }

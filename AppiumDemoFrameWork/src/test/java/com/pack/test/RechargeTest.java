@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import com.pack.base.AppiumServer;
 import com.pack.page.Recharge;
-public class B extends Recharge{
+public class RechargeTest extends Recharge{
 	//String phoneNumber="9740172751";
 	AppiumServer as;
 	AppiumTestBase ab;
@@ -37,11 +37,18 @@ public void initialize(){
 	@Test
 	public void rechargePayTM(String phoneNumber){
 		System.out.println("Phone Number is " + phoneNumber );
-		enterUserName(phoneNumber);
-		operatorName();
+		enterPhoneNumber(phoneNumber);
+		
+		//verify operator name returned by the application
+		VerifyOperatorName();
+		
+		//operatorName();
 		clickOnBrowsePlans();
 		clickOnSpecial();
-		rechargeAmount();
+		//rechargeAmount();
+		//verify Recharge amount returned by the application
+		verifyRechargeAmount();
+		
 		clickOnProcedToRecharge();
 		clickOnProcedToPay();
 	}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
-  <parameter name="phoneNumber" value="9740172751"/>
+  <parameter name="phoneNumber" value="9740172752"/>
   <listeners>
     <listener class-name="com.pack.listners.ListenerClass"/>
     <listener class-name="com.pack.listners.ExtentReporterNG"/>

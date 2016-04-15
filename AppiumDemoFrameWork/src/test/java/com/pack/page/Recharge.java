@@ -25,17 +25,31 @@ public class Recharge extends SeleniumBusiness{
 		log.info("In Recharge Page");
 		PropertyConfigurator.configure("Log4j.properties");
 	}
-	public void enterUserName(String phoneNumber) {
+	public void enterPhoneNumber(String phoneNumber) {
 
 	    log.info("Phone Number Entered");
-		enterTextField(phoneNumberText, phoneNumber);	
+	    enterTextField(phoneNumberText, phoneNumber);	
+		
 	
 	}
-public void operatorName(){
+/*public void operatorName(){
 	 
 	System.out.println("Operator selected is " +getTextFromElement(operatorText));
-}
+}*/
+	public String getOperatorName(){
+		 
+		System.out.println("Operator selected is " +getTextFromElement(operatorText));
+		return getTextFromElement(operatorText);
+	}	
 
+	public void VerifyOperatorName(){
+		if(getOperatorName().equals("AIRTEL")){
+			System.out.println("Phone Operator displayed is: AIRTEL");
+		}
+		else{
+			System.out.println("Phone Operator is not: AIRTEL");
+		}
+	}
 public void clickOnBrowsePlans(){
 	 log.info("PlanBrowsed");
 	clickButtonOrLink(BrowsePlans);
@@ -49,9 +63,24 @@ public void clickOnSpecial(){
 	clickButtonOrLink(firstEntry);
 
 }
-public void rechargeAmount(){
+/*public void rechargeAmount(){
 	waitFindElement(rechargeAmount);
 	System.out.println("It's a recharge of total " +getTextFromElement(rechargeAmount));
+}*/
+
+public String getRechargeAmount(){
+	waitFindElement(rechargeAmount);
+	System.out.println("It's a recharge of total " +getTextFromElement(rechargeAmount));
+	return getTextFromElement(rechargeAmount);
+}
+
+public void verifyRechargeAmount(){
+	if(getOperatorName().equals("AIRTEL")){
+		System.out.println("Phone Operator displayed is: AIRTEL");
+	}
+	else{
+		System.out.println("Phone Operator is not: AIRTEL");
+	}
 }
 	
 public void clickOnProcedToRecharge(){

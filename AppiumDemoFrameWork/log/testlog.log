@@ -521,3 +521,119 @@
 2016-04-15 15:41:11,160 - Recharge -INFO - Phone Operator displayed is: AIRTEL
 2016-04-15 15:41:11,160 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
 2016-04-15 15:41:12,095 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:19:55,114 - Recharge -INFO - Phone Number Entered
+2016-04-15 17:19:55,114 - SeleniumBusiness -INFO - -Entering text: 9740172752 in element located at : By.id: net.one97.paytm:id/edit_no
+2016-04-15 17:20:17,940 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:20:19,297 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:20:20,234 - Recharge -INFO - Phone Operator displayed is: AIRTEL
+2016-04-15 17:20:20,249 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:20:20,531 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:34:34,051 - Recharge -INFO - Phone Number Entered
+2016-04-15 17:34:34,053 - SeleniumBusiness -INFO - -Entering text: 9740172752 in element located at : By.id: net.one97.paytm:id/edit_no
+2016-04-15 17:34:56,613 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:34:59,014 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:34:59,409 - Recharge -INFO - Phone Operator displayed is: AIRTEL
+2016-04-15 17:34:59,409 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:34:59,706 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:37:29,273 - Recharge -INFO - Phone Number Entered
+2016-04-15 17:37:29,273 - SeleniumBusiness -INFO - -Entering text: 9740172752 in element located at : By.id: net.one97.paytm:id/edit_no
+2016-04-15 17:37:57,606 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:38:00,033 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:38:00,330 - Recharge -INFO - Phone Operator displayed is: AIRTEL
+2016-04-15 17:38:00,330 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:38:00,640 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:40:59,822 - Recharge -INFO - Phone Number Entered
+2016-04-15 17:40:59,822 - SeleniumBusiness -INFO - -Entering text: 9740172752 in element located at : By.id: net.one97.paytm:id/edit_no
+2016-04-15 17:41:21,771 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:41:24,154 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:41:25,546 - Recharge -INFO - Phone Operator displayed is: AIRTEL
+2016-04-15 17:41:25,546 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 17:41:25,921 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:16:36,356 - Recharge -INFO - Phone Number Entered
+2016-04-15 18:16:36,356 - SeleniumBusiness -INFO - -Entering text: 9740172752 in element located at : By.id: net.one97.paytm:id/edit_no
+2016-04-15 18:16:59,168 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:17:01,474 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:17:01,831 - Recharge -INFO - Phone Operator displayed is: AIRTEL
+2016-04-15 18:17:01,831 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:17:02,144 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:20:32,178 - Recharge -INFO - Phone Number Entered
+2016-04-15 18:20:32,194 - SeleniumBusiness -INFO - -Entering text: 9740172752 in element located at : By.id: net.one97.paytm:id/edit_no
+2016-04-15 18:20:59,799 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:21:02,100 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:21:02,506 - Recharge -INFO - Phone Operator displayed is: AIRTEL
+2016-04-15 18:21:02,506 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:21:02,830 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:21:03,158 - Recharge -INFO - PlanBrowsed
+2016-04-15 18:21:03,158 - SeleniumBusiness -INFO - -Clicking element located at : By.name: Browse Plans
+2016-04-15 18:21:04,576 - Recharge -INFO - Clicked on Special
+2016-04-15 18:21:07,852 - SeleniumBusiness -INFO - -Clicking element located at : By.name: Special Recharge
+2016-04-15 18:21:10,759 - SeleniumBusiness -INFO - -Clicking element located at : By.id: net.one97.paytm:id/row_container
+2016-04-15 18:21:14,275 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:14,635 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:15,150 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:15,482 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:15,935 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:16,244 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:16,556 - Recharge -INFO - Recharge amount displayed is: Enter Amount. 12. Double tap to edit.
+2016-04-15 18:21:16,681 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:17,025 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:17,403 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:17,898 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:21:18,223 - Recharge -INFO - Clicked on ProcedToRecharge
+2016-04-15 18:21:18,583 - SeleniumBusiness -INFO - -Clicking element located at : By.name: Proceed to Recharge
+2016-04-15 18:21:20,769 - Recharge -INFO - Clicked on ProcedToPay
+2016-04-15 18:21:24,619 - SeleniumBusiness -INFO - -Clicking element located at : By.xpath: //android.widget.Button[@index='2']
+2016-04-15 18:25:40,317 - Recharge -INFO - Phone Number Entered
+2016-04-15 18:25:40,364 - SeleniumBusiness -INFO - -Entering text: 9740172752 in element located at : By.id: net.one97.paytm:id/edit_no
+2016-04-15 18:26:03,058 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:26:05,412 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:26:05,805 - Recharge -INFO - Phone Operator displayed is: AIRTEL
+2016-04-15 18:26:05,805 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:26:06,102 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:26:06,477 - Recharge -INFO - PlanBrowsed
+2016-04-15 18:26:06,477 - SeleniumBusiness -INFO - -Clicking element located at : By.name: Browse Plans
+2016-04-15 18:26:08,269 - Recharge -INFO - Clicked on Special
+2016-04-15 18:26:10,976 - SeleniumBusiness -INFO - -Clicking element located at : By.name: Special Recharge
+2016-04-15 18:26:14,373 - SeleniumBusiness -INFO - -Clicking element located at : By.id: net.one97.paytm:id/row_container
+2016-04-15 18:26:18,111 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:18,423 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:18,830 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:19,211 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:19,633 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:19,945 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:20,295 - Recharge -INFO - Recharge amount displayed is: Enter Amount. 12. Double tap to edit.
+2016-04-15 18:26:20,373 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:20,835 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:21,228 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:21,595 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:26:21,989 - Recharge -INFO - Clicked on ProcedToRecharge
+2016-04-15 18:26:22,303 - SeleniumBusiness -INFO - -Clicking element located at : By.name: Proceed to Recharge
+2016-04-15 18:26:24,867 - Recharge -INFO - Clicked on ProcedToPay
+2016-04-15 18:26:29,006 - SeleniumBusiness -INFO - -Clicking element located at : By.xpath: //android.widget.Button[@index='2']
+2016-04-15 18:27:35,019 - Recharge -INFO - Phone Number Entered
+2016-04-15 18:27:35,035 - SeleniumBusiness -INFO - -Entering text: 9740172752 in element located at : By.id: net.one97.paytm:id/edit_no
+2016-04-15 18:27:55,960 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:27:58,368 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:27:58,703 - Recharge -INFO - Phone Operator displayed is: AIRTEL
+2016-04-15 18:27:58,703 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:27:59,157 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 18:27:59,453 - Recharge -INFO - PlanBrowsed
+2016-04-15 18:27:59,453 - SeleniumBusiness -INFO - -Clicking element located at : By.name: Browse Plans
+2016-04-15 18:28:01,428 - Recharge -INFO - Clicked on Special
+2016-04-15 18:28:04,367 - SeleniumBusiness -INFO - -Clicking element located at : By.name: Special Recharge
+2016-04-15 18:28:07,060 - SeleniumBusiness -INFO - -Clicking element located at : By.id: net.one97.paytm:id/row_container
+2016-04-15 18:28:10,114 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:10,442 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:10,864 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:11,178 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:11,616 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:11,959 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:12,347 - Recharge -INFO - Recharge amount displayed is: Enter Amount. 12. Double tap to edit.
+2016-04-15 18:28:12,443 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:12,802 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:13,282 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:13,610 - SeleniumBusiness -INFO - -Fetching text for the element in location: By.id: net.one97.paytm:id/edit_amount
+2016-04-15 18:28:13,939 - Recharge -INFO - Clicked on ProcedToRecharge
+2016-04-15 18:28:14,581 - SeleniumBusiness -INFO - -Clicking element located at : By.name: Proceed to Recharge
+2016-04-15 18:28:16,738 - Recharge -INFO - Clicked on ProcedToPay
+2016-04-15 18:28:20,545 - SeleniumBusiness -INFO - -Clicking element located at : By.xpath: //android.widget.Button[@index='2']

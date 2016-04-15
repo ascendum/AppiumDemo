@@ -1,11 +1,28 @@
 package com.pack.listners;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.testng.IClass;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
+import com.pack.base.TestBaseSetup;
+
+
+
 public class ListenerClass extends TestListenerAdapter {
-	
+	WebDriver driver=null;
+	String filePath = "D:\\DemoFrameWorkScreenShots\\SCREENSHOTS";
+	DateFormat dateFormat = new SimpleDateFormat("dd_MMM_yyyy__hh_mm_ssaa");
+	Date date = new Date();
 	@Override
 	public void onTestStart(ITestResult tr) {
 		log("Test Started....");
@@ -49,4 +66,16 @@ public class ListenerClass extends TestListenerAdapter {
 		System.out.println(testClass);
 	}
 
+	public void takeScreenShot(String methodName) {
+    	//get the driver
+    	driver=TestBaseSetup.getDriver();
+    	 File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+         //The below method will save the screen shot in d drive with test method name 
+            try {
+				FileUtils.copyFile(scrFile, new File(filePath + methodName +dateFormat.format(date) + ".png"));
+				System.out.println("***Placed screen shot in "+filePath+" ***");
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+    }
 }

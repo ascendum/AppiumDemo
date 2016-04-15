@@ -19,7 +19,7 @@ public class AppiumTestBase {
         return ad;
     }
 
-	 void initializeAndroidDriver() {
+	 void initializeAndroidDriverPayTM() {
 		 DesiredCapabilities ds=new DesiredCapabilities();
 			ds.setCapability("deviceName", "SM-E700H");
 			ds.setCapability("platformName", "Android");
@@ -38,4 +38,22 @@ public class AppiumTestBase {
 		   
     }
 
+	
+	 void initializeAndroidDriverApiDemos() {
+		 DesiredCapabilities ds=new DesiredCapabilities();
+		 ds.setCapability("deviceName", "ZX1B32FFXF");
+		 ds.setCapability("browserName", "Android");
+		 ds.setCapability("platformVersion", "4.4.2");
+		 ds.setCapability("platformName", "Android");
+		 ds.setCapability("appPackage", "com.hmh.api");
+		 ds.setCapability("appActivity","com.hmh.api.ApiDemos");
+			try {
+				ad=new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),ds);
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			ad.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		   
+    }
 }

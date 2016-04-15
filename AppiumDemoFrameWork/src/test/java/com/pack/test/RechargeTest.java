@@ -33,7 +33,7 @@ public void initialize(){
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-	ab.initializeAndroidDriver();
+	ab.initializeAndroidDriverPayTM();
 
 }
     @Parameters({ "phoneNumber"})

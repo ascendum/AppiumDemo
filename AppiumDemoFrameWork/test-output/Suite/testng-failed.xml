@@ -11,15 +11,4 @@
       <class name="com.pack.test.RechargeTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)" parallel="classes">
-    <classes>
-      <class name="com.pack.test.RechargeTest">
-        <methods>
-          <include name="rechargePayTM" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- com.pack.test.RechargeTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

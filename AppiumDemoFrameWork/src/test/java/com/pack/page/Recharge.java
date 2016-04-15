@@ -7,6 +7,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Reporter;
 
 import com.pack.SeleniumHelpers.SeleniumBusiness;
 
@@ -45,9 +46,13 @@ public class Recharge extends SeleniumBusiness{
 	public void VerifyOperatorName(){
 		if(getOperatorName().equals("AIRTEL")){
 			System.out.println("Phone Operator displayed is: AIRTEL");
+			log.info("Phone Operator displayed is: AIRTEL");
+			Reporter.log("Phone Operator displayed is: AIRTEL");
 		}
 		else{
 			System.out.println("Phone Operator is not: AIRTEL");
+			log.info("Phone Operator is not: AIRTEL");
+			Reporter.log("Phone Operator is not: AIRTEL");
 		}
 	}
 public void clickOnBrowsePlans(){
@@ -75,11 +80,15 @@ public String getRechargeAmount(){
 }
 
 public void verifyRechargeAmount(){
-	if(getOperatorName().equals("AIRTEL")){
-		System.out.println("Phone Operator displayed is: AIRTEL");
+	if(!getRechargeAmount().isEmpty()){
+		System.out.println("Recharge amount displayed is: "+getRechargeAmount());
+		log.info("Recharge amount displayed is: "+getRechargeAmount());
+		Reporter.log("Recharge amount displayed is: "+getRechargeAmount());
 	}
 	else{
-		System.out.println("Phone Operator is not: AIRTEL");
+		System.out.println("Recharge amount is Empty");
+		log.info("Recharge amount is Empty");
+		Reporter.log("Recharge amount is Empty");
 	}
 }
 	

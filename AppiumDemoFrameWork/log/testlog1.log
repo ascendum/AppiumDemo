@@ -375,3 +375,18 @@
 2016-04-14 20:20:39,425 [pool-1-thread-1] INFO SeleniumBusiness - -Clicking element located at : By.name: Proceed to Recharge
 2016-04-14 20:20:42,053 [pool-1-thread-1] INFO Recharge - Clicked on ProcedToPay
 2016-04-14 20:20:46,368 [pool-1-thread-1] INFO SeleniumBusiness - -Clicking element located at : By.xpath: //android.widget.Button[@index='2']
+2016-04-15 14:41:06,001 [pool-1-thread-1] INFO Recharge - Phone Number Entered
+2016-04-15 14:41:06,016 [pool-1-thread-1] INFO SeleniumBusiness - -Entering text: 9740172752 in element located at : By.id: net.one97.paytm:id/edit_no
+2016-04-15 14:41:34,309 [pool-1-thread-1] INFO SeleniumBusiness - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 14:41:36,014 [pool-1-thread-1] INFO SeleniumBusiness - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 14:41:36,334 [pool-1-thread-1] INFO Recharge - PlanBrowsed
+2016-04-15 14:41:36,334 [pool-1-thread-1] INFO SeleniumBusiness - -Clicking element located at : By.name: Browse Plans
+2016-04-15 14:41:37,930 [pool-1-thread-1] INFO Recharge - Clicked on Special
+2016-04-15 14:41:41,853 [pool-1-thread-1] INFO SeleniumBusiness - -Clicking element located at : By.name: Special Recharge
+2016-04-15 14:41:47,422 [pool-1-thread-1] INFO SeleniumBusiness - -Clicking element located at : By.id: net.one97.paytm:id/row_container
+2016-04-15 14:41:50,369 [pool-1-thread-1] INFO SeleniumBusiness - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 14:41:50,713 [pool-1-thread-1] INFO SeleniumBusiness - -Fetching text for the element in location: By.id: net.one97.paytm:id/text_mob_op
+2016-04-15 14:41:51,057 [pool-1-thread-1] INFO Recharge - Clicked on ProcedToRecharge
+2016-04-15 14:41:51,667 [pool-1-thread-1] INFO SeleniumBusiness - -Clicking element located at : By.name: Proceed to Recharge
+2016-04-15 14:41:53,940 [pool-1-thread-1] INFO Recharge - Clicked on ProcedToPay
+2016-04-15 14:42:03,364 [pool-1-thread-1] INFO SeleniumBusiness - -Clicking element located at : By.xpath: //android.widget.Button[@index='2']

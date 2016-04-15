@@ -4,11 +4,14 @@ import static com.pack.test.AppiumTestBase.getAndroidDriver;
 
 import java.io.IOException;
 
+import junit.framework.Assert;
+
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.google.common.base.Verify;
 import com.pack.base.AppiumServer;
 import com.pack.page.Recharge;
 public class RechargeTest extends Recharge{
@@ -41,11 +44,11 @@ public void initialize(){
 		
 		//verify operator name returned by the application
 		VerifyOperatorName();
-		
+	
 		//operatorName();
 		clickOnBrowsePlans();
 		clickOnSpecial();
-		//rechargeAmount();
+
 		//verify Recharge amount returned by the application
 		verifyRechargeAmount();
 		

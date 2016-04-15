@@ -2,13 +2,17 @@ package com.pack.page;
 
 import static com.pack.test.AppiumTestBase.getAndroidDriver;
 
+
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.Reporter;
 
+import com.google.common.base.Verify;
 import com.pack.SeleniumHelpers.SeleniumBusiness;
 
 public class Recharge extends SeleniumBusiness{
@@ -44,16 +48,19 @@ public class Recharge extends SeleniumBusiness{
 	}	
 
 	public void VerifyOperatorName(){
-		if(getOperatorName().equals("AIRTEL")){
+		if(getOperatorName().equals("Airtel")){
 			System.out.println("Phone Operator displayed is: AIRTEL");
 			log.info("Phone Operator displayed is: AIRTEL");
 			Reporter.log("Phone Operator displayed is: AIRTEL");
+					
 		}
 		else{
 			System.out.println("Phone Operator is not: AIRTEL");
 			log.info("Phone Operator is not: AIRTEL");
 			Reporter.log("Phone Operator is not: AIRTEL");
 		}
+		
+		Assert.assertEquals("Airtel",getOperatorName() );
 	}
 public void clickOnBrowsePlans(){
 	 log.info("PlanBrowsed");
@@ -90,6 +97,8 @@ public void verifyRechargeAmount(){
 		log.info("Recharge amount is Empty");
 		Reporter.log("Recharge amount is Empty");
 	}
+	
+	Assert.assertTrue(!getRechargeAmount().isEmpty());
 }
 	
 public void clickOnProcedToRecharge(){

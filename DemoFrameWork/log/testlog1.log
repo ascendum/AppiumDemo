@@ -569,3 +569,35 @@
 2016-04-15 18:30:14,071 [pool-1-thread-2] INFO SignInPage - Next button is clicked
 2016-04-15 18:30:15,176 [pool-1-thread-2] INFO SignInPage - Passwod is Entered Sucessfully
 2016-04-15 18:30:16,344 [pool-1-thread-2] INFO SignInPage - SignIn button clicked
+2016-04-18 14:54:19,585 [pool-1-thread-1] INFO TestBaseSetup - Launching Firefox browser..
+2016-04-18 14:54:19,569 [pool-1-thread-2] INFO TestBaseSetup - Launching Firefox browser..
+2016-04-18 14:54:19,600 [pool-1-thread-3] INFO TestBaseSetup - Launching Firefox browser..
+2016-04-18 14:54:32,528 [pool-1-thread-1] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-04-18 14:54:36,760 [pool-1-thread-1] INFO CreateAnAccounTest - Create An Account page test...
+2016-04-18 14:54:36,773 [pool-1-thread-1] INFO BasePage - clicking on sign in button
+2016-04-18 14:54:41,716 [pool-1-thread-1] INFO SignInPage - CreateAnAccount link clicked
+2016-04-18 14:54:43,663 [pool-1-thread-2] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-04-18 14:54:49,903 [pool-1-thread-2] INFO BasePage - clicking on sign in button
+2016-04-18 14:54:53,428 [pool-1-thread-2] INFO SignInPage - UserName Entered Sucessfully
+2016-04-18 14:54:58,832 [Forwarding isElementDisplayed on session a1cd71f5-d654-46f7-b052-52e4e04f6861 to remote] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7056: The target server failed to respond
+2016-04-18 14:54:58,832 [Forwarding isElementDisplayed on session a1cd71f5-d654-46f7-b052-52e4e04f6861 to remote] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://127.0.0.1:7056
+2016-04-18 14:55:06,962 [pool-1-thread-3] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-04-18 14:55:09,359 [pool-1-thread-3] INFO CreateAccountPage - Home page test...
+2016-04-18 14:55:09,562 [pool-1-thread-3] INFO BasePage - title captured1
+2016-04-18 14:56:08,260 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-04-18 14:56:17,196 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-04-18 14:56:20,517 [main] INFO CreateAnAccounTest - Create An Account page test...
+2016-04-18 14:56:20,532 [main] INFO BasePage - clicking on sign in button
+2016-04-18 14:56:22,565 [main] INFO SignInPage - CreateAnAccount link clicked
+2016-04-18 14:56:28,450 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-04-18 14:56:40,037 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-04-18 14:56:43,259 [main] INFO BasePage - clicking on sign in button
+2016-04-18 14:56:45,591 [main] INFO SignInPage - UserName Entered Sucessfully
+2016-04-18 14:57:04,006 [main] INFO SignInPage - Next button clicked
+2016-04-18 14:57:04,027 [main] INFO SignInPage - Next button is clicked
+2016-04-18 14:57:04,159 [main] INFO SignInPage - Passwod is Entered Sucessfully
+2016-04-18 14:57:39,959 [main] INFO SignInPage - SignIn button clicked
+2016-04-18 14:57:40,802 [main] INFO TestBaseSetup - Launching Firefox browser..
+2016-04-18 14:57:47,235 [main] INFO TestBaseSetup - Maximizing Firefox browser..
+2016-04-18 14:57:49,307 [main] INFO CreateAccountPage - Home page test...
+2016-04-18 14:57:49,455 [main] INFO BasePage - title captured1

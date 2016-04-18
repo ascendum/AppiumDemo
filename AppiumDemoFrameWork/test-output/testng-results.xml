@@ -8,16 +8,16 @@
       <![CDATA[Recharge amount displayed is: Enter Amount. 12. Double tap to edit.]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="79650" started-at="2016-04-15T12:57:10Z" finished-at="2016-04-15T12:58:29Z">
+  <suite name="Suite" duration-ms="85443" started-at="2016-04-15T13:02:17Z" finished-at="2016-04-15T13:03:43Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="79650" started-at="2016-04-15T12:57:10Z" finished-at="2016-04-15T12:58:29Z">
+    <test name="Test" duration-ms="85443" started-at="2016-04-15T13:02:17Z" finished-at="2016-04-15T13:03:43Z">
       <class name="com.pack.test.RechargeTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.pack.test.RechargeTest@1593948d]" name="initialize" is-config="true" duration-ms="24979" started-at="2016-04-15T18:27:10Z" finished-at="2016-04-15T18:27:34Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.pack.test.RechargeTest@1593948d]" name="initialize" is-config="true" duration-ms="24701" started-at="2016-04-15T18:32:17Z" finished-at="2016-04-15T18:32:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="rechargePayTM(java.lang.String)[pri:0, instance:com.pack.test.RechargeTest@1593948d]" name="rechargePayTM" duration-ms="53585" started-at="2016-04-15T18:27:35Z" finished-at="2016-04-15T18:28:28Z">
+        <test-method status="PASS" signature="rechargePayTM(java.lang.String)[pri:0, instance:com.pack.test.RechargeTest@1593948d]" name="rechargePayTM" duration-ms="59686" started-at="2016-04-15T18:32:42Z" finished-at="2016-04-15T18:33:42Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- rechargePayTM -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.RechargeTest@1593948d]" name="tearDown" is-config="true" duration-ms="1051" started-at="2016-04-15T18:28:28Z" finished-at="2016-04-15T18:28:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pack.test.RechargeTest@1593948d]" name="tearDown" is-config="true" duration-ms="1020" started-at="2016-04-15T18:33:42Z" finished-at="2016-04-15T18:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
